@@ -9,23 +9,28 @@
 body {
   font-family: Arial, sans-serif;
   text-align: center;
-  background-color: #f5f5f5;
+  /* background-color: #f5f5f5; */
   color: #333;
-  
+  background-image: url(background-image.jpeg);
+  background-repeat: no-repeat; 
+  background-size: cover; 
+  background-position: center;
 }
 
 .pomodoro-container {
   margin: 100px auto;
   width: 300px;
   padding: 76px;
-  background-color: #fff;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  background-color: rgba(255, 255, 255, 0.1);
   border-radius: 8px;
+  border-radius: 8px;
+  backdrop-filter: blur(15px);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
 }
 
 h1 {
   font-size: 2rem;
-  color: crimson;
+  /* color: crimson; */
 }
 
 #timer-display {
