@@ -11,13 +11,13 @@ body {
   text-align: center;
   background-color: #f5f5f5;
   color: #333;
-  background-color: #333;
+  
 }
 
 .pomodoro-container {
   margin: 100px auto;
   width: 300px;
-  padding: 20px;
+  padding: 76px;
   background-color: #fff;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
   border-radius: 8px;
@@ -25,12 +25,14 @@ body {
 
 h1 {
   font-size: 2rem;
+  color: crimson;
 }
 
 #timer-display {
   font-size: 3rem;
   margin: 20px 0;
   font-weight: bold;
+  
 }
 
 .buttons {
@@ -48,24 +50,20 @@ button {
 }
 
 #start-btn {
-  background-color: #28a745;
+  background-color: #007bff;
   color: white;
 }
 
 #stop-btn {
-  background-color: #dc3545;
+  background-color: #007bff;
   color: white;
 }
 
 #reset-btn {
-  background-color: #ffc107;
+  background-color: #007bff;
   color: white;
 }
 
-.session-info {
-  margin-top: 15px;
-  font-size: 1.2rem;
-}
 
 </style>
 <body>
@@ -76,9 +74,6 @@ button {
       <button id="start-btn">Start</button>
       <button id="stop-btn">Stop</button>
       <button id="reset-btn">Reset</button>
-    </div>
-    <div class="session-info">
-      <p id="session-type">Work Session</p>
     </div>
   </div>
   <script src="script.js"></script>
