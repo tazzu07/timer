@@ -32,13 +32,14 @@ function startTimer() {
 }
 
 function stopTimer() {
+  if (timer) {
   clearInterval(timer); 
   timer = null;
 }
+}
 
 function resetTimer() {
-  clearInterval(timer); 
-  timer = null;
+  stopTimer();
   timeLeft = workDuration; 
   sessionType.textContent = "Work Session"; 
   updateDisplay(); 
